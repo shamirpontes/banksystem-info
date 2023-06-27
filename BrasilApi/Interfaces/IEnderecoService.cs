@@ -7,6 +7,6 @@ namespace BrasilApi.View
 {
     public interface IEnderecoService
     {
-        
+        Task<ReponseGenerico<EnderecoResponse>> BuscasEnderecoPorCEP(string cep)
     }
 }
